@@ -1,0 +1,126 @@
+{
+  "project": {
+    "name": "Exkursionsberichte Friedrich Sellows",
+    "quality": 1
+ },
+  "loader": {
+    "info": "data/info.md",
+    "timeline": "data/timeline.csv",
+    "items": "data/data.csv",
+    "textures": {
+      "medium": {
+        "size":256,
+        "url": "data/data/sprites/web_web_full.json"
+      },
+      "detail": {
+        "size": 4096,
+        "url": "data/data/4096/"
+      }
+    }
+  },
+"style": {
+    "fontColor": "#7da30c",
+    "fontColorActive": "#1a1a1a",
+    "textShadow": "none",
+    "canvasBackground": "#1a1a1a",
+    "timelineBackground": "#f0f0f0",
+    "timelineFontColor": "#7da30c",
+    "backgroundHeader": "#1a1a1a",
+    "fontColorHeader": "#ffffff",
+    "detailBackground": "#f0f0f0",
+    "infoBackground": "#f0f0f0",
+    "infoFontColor": "#1a1a1a",
+    "searchbarBackground": "url('../img/texture-mfn.png')"
+  },
+  "projection": {
+    "columns": 8
+  },
+  "detail": {
+    "structure": [
+      {
+        "name": "ID",
+        "source": "_id",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Geographie",
+        "source": "_geo",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Personen",
+        "source": "_personen",
+        "display": "column",
+        "type": "text"
+      },
+     {
+        "name": "Ethnien & Gruppen",
+        "source": "_ethngrp",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Tiere",
+        "source": "_tiere",
+        "display": "column",
+        "type": "text"
+      },
+     {
+        "name": "Pflanzen",
+        "source": "_pflanzen",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Gesteine & Minerale",
+        "source": "_gestminer",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Maßeinheiten",
+        "source": "_einheiten",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Messungen",
+        "source": "_messungen",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Zitate",
+        "source": "_zitate",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Medizin",
+        "source": "_medizin",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Landwirtschaft & Handwerk",
+        "source": "_lawihw",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Zeichnungen",
+        "source": "_zeichnungen",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Volltext der Seite",
+        "source": "_text",
+        "display": "column",
+        "type": "markdown"
+      }
+    ]
+  }
+}
